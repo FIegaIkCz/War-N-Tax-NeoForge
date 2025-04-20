@@ -1,0 +1,12 @@
+{
+  "war_horn": {
+    "category": "master",
+    "subtitle": "War horn",
+    "sounds": [
+      {
+        "name": "warntaxes:war_horn",
+        "stream": false
+      }
+    ]
+  }
+}

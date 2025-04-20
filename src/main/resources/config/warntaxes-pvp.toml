@@ -1,0 +1,23 @@
+# PvP Arena Configuration for War 'N Taxes
+[pvp]
+
+    # Enable PvP duels using the /pvparena command (default: true)
+    enablePvpArena = true
+
+    # Allow spectators to watch PvP matches (default: true)
+    allowSpectators = true
+
+    # Require equal team sizes in PvP duels (default: true)
+    enforceTeamBalance = true
+
+    # Max players per team in arena (default: 5)
+    maxPlayersPerTeam = 5
+
+    # Cooldown between PvP matches in ticks (default: 6000 = 5 minutes)
+    matchCooldownTicks = 6000
+
+    # Auto-restore inventory after duel (default: true)
+    restoreInventoryAfterMatch = true
+
+    # Allow arena to be used during war (default: false)
+    allowArenaDuringWar = false

@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.0.100'
+}
+
+group = 'net.warntaxes'
+version = '2.0.0'
+base.archivesName = 'warntaxes-neoforge'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.neoforged.net/releases/' }
+    maven { url = 'https://cursemaven.com' }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:21.1.135"
+    implementation "curse.maven:minecolonies-245506:5554869"
+    implementation "curse.maven:lightmanscurrency-472521:5636604"
+}
+
+userDev {
+    accessTransformers.set([])
+}
+
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') {
+        expand 'version': project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release.set(21)
+}

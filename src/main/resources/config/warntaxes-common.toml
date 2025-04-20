@@ -1,0 +1,29 @@
+# General configuration for War 'N Taxes
+[general]
+
+    # Base tax amount collected per building (default: 10)
+    baseTaxPerBuilding = 10
+
+    # Additional tax per building level (default: 2)
+    taxPerUpgradeLevel = 2
+
+    # Maximum tax a colony can collect in one cycle (default: 500)
+    maxColonyTax = 500
+
+    # Tax collection interval in ticks (default: 24000 = 20 minutes)
+    taxIntervalTicks = 24000
+
+    # Enable raid stealing during war (default: true)
+    allowRaidStealing = true
+
+    # Coin reward from successful raid (default: 100)
+    raidRewardAmount = 100
+
+    # Coin penalty if war is lost (default: 250)
+    warReparationsAmount = 250
+
+    # Allow PvP duels outside of war (default: true)
+    enablePvpArena = true
+
+    # Max duration of war in ticks (default: 72000 = 1 hour)
+    warDurationTicks = 72000

@@ -1,0 +1,14 @@
+# Client-side configuration for War 'N Taxes
+[client]
+
+    # Show tax/war status overlays (default: true)
+    enableWarHud = true
+
+    # Show PvP arena boundaries in HUD (default: true)
+    showArenaOverlay = true
+
+    # Warn before collecting taxes (default: true)
+    showTaxCollectionPrompt = true
+
+    # Play war horn sound on war declaration (default: true)
+    playWarHorn = true

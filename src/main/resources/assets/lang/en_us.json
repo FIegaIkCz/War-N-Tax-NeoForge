@@ -1,0 +1,17 @@
+{
+  "mod.warntaxes.name": "War 'N Taxes",
+  "command.warntaxes.wagewar.success": "War declared between %s and %s.",
+  "command.warntaxes.suepeace.success": "Peace request sent.",
+  "command.warntaxes.pvparena.setp1": "Arena point 1 set.",
+  "command.warntaxes.pvparena.setp2": "Arena point 2 set.",
+  "hud.war.active": "? War In Progress",
+  "hud.tax.due": "Tax Collection Due",
+  "hud.pvp.active": "PvP Duel Ongoing",
+  "hud.pvp.spectate": "Spectating Duel",
+  "tooltip.tax.amount": "Tax Owed: %s Coins",
+  "tooltip.pvp.cooldown": "PvP Match Cooldown: %s seconds",
+  "message.currency.deposit": "Deposited %s coins.",
+  "message.currency.withdraw": "Withdrew %s coins.",
+  "message.currency.nofunds": "Insufficient funds.",
+  "message.currency.nowallet": "No wallet found."
+}

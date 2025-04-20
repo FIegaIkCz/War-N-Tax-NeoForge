@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+issueTrackerURL="https://github.com/yourname/warntaxes/issues"
+
+[[mods]]
+modId="warntaxes"
+version="1.0.0"
+displayName="War 'N Taxes"
+authors="FIegaIkCz"
+description='''
+A MineColonies expansion mod that adds war declarations, tax systems, PvP arenas, and economic penalties using Lightsman's Currency.
+'''
+
+[[dependencies.warntaxes]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[20.1.135,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.warntaxes]]
+    modId="minecolonies"
+    mandatory=true
+    versionRange="[1.21.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.warntaxes]]
+    modId="lightsmanscurrency"
+    mandatory=false
+    versionRange="[1.21.1,)"
+    ordering="AFTER"
+    side="BOTH"
